@@ -1,0 +1,19 @@
+{
+  "name": "jjdf",
+  "version": "0.0.0",
+  "description": "jjdf ====",
+  "main": "web.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zimuzostanley/jjdf.git"
+  },
+  "author": "Zim",
+  "bugs": {
+    "url": "https://github.com/zimuzostanley/jjdf/issues"
+  },
+  "dependencies": {
+    "express": "~3.3.4",
+    "ejs": "~0.8.4",
+    "path": "~0.4.9"
+  }
+}
