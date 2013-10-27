@@ -24,7 +24,6 @@ body {
   display: none;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -54,6 +53,8 @@ body {
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  height: 5px;
+  background-color: #E9EAEE;
 }
 
 /* Thin out the marketing headings */
@@ -85,21 +86,33 @@ body {
     border-radius: 4px;
   }
 
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
   .featurette-heading {
     font-size: 50px;
   }
 
+  .how-you-can-help {
+    padding-right: 100px;
+    border-right: 1px solid #EEEEEE;
+  }
+
+  .contact-us {
+    padding-left: 100px;
+  }
+
+  .directors {
+    padding-right: 100px;
+    border-right: 1px solid #EEEEEE;
+  }
+
+  .officers {
+    padding-left: 100px;
+  }
+
+
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
+  .added-margin {
     margin-top: 120px;
   }
 }
