@@ -1,23 +1,55 @@
 body {
-  background-color: #fcf9fc;
+  font-family: 'Cantata One', serif;
 }
 
-.top-bar {
-  margin-bottom: 50px;
-  background-color: #6F5092;
+.header {
+  background-color: #ccc;
+  position: relative;
+  height: 80px;
 }
 
-#donate-btn {
-  background-color: #65399b;
+.header-title {
+  padding: 20px;
+  font-family: 'Crete Round', serif;
+  font-size: 8px;
+  color: #fff;
+  text-align: center;
 }
 
-#read-more-about {
-  color: #7212e8;
-}
-
-.extra-about {
+.phone-desktop, .direction-desktop {
   display: none;
 }
+
+.direction-wrapper {
+  display: none;
+  float: right;
+}
+
+.phone-wrapper {
+  display: none;
+}
+
+.phone-mobile, .direction-mobile {
+  border: 1px solid #EAE8EA;
+}
+
+.slideshow-wrapper {
+  margin-top: 30px;
+}
+
+.extra-started, .extra-clement, .extra-ifeoma {
+  display: none;
+}
+
+.what-we-do {
+  list-style-type: none;
+}
+
+span {
+  color: #7212e8;
+  font-style: italic;
+}
+
 
 .row {
   margin-bottom: 30px;
@@ -46,10 +78,16 @@ body {
   padding-right: 20px;
 }
 
-#direction-img, #phone-img {
-  width: 30px;
-  height: 30px;
-  float: left;
+#direction-img {
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+}
+
+#phone-img {
+  padding: 5px;
+  width: 70px;
+  height: 70px;
 }
 
 #direction-txt, #phone-txt {
@@ -83,6 +121,10 @@ body {
   padding: 0px 10px;
 }
 
+.verbose ul li {
+  border-bottom: 1px solid #EAE8EA;
+  padding: 10px 0px;
+}
 #footer {
   padding-top: 50px;
   background-color: #333333;
@@ -90,15 +132,33 @@ body {
 
 #footer p {
   color: #5A5A5A;
-  text-align: left;
 }
 
 @media (min-width: 768px) {
-  #directors {
-    border-right: 1px solid #EEEEEE;
+  .header-mobile {
+    display: none;
+    position: relative;
   }
 
-  #officers {
-    padding-left: 50px;
+  .phone-desktop {
+    display: block;
+  }
+
+  .direction-desktop {
+    display: block;
+  }
+
+  #direction-img {
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    float: right;
+  }
+
+  #phone-img {
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    float: left;
   }
 }
