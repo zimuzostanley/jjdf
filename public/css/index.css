@@ -1,5 +1,6 @@
 body {
   font-family: 'Cantata One', serif;
+  color: #503428;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
   padding: 20px;
   font-family: 'Crete Round', serif;
   font-size: 8px;
-  color: #fff;
+  color: #503428;
   text-align: center;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 span {
-  color: #7212e8;
+  color: #503428;
   font-style: italic;
 }
 
@@ -39,22 +40,9 @@ span {
 }
 
 .row .panel {
-  background-color: #CCCCCC;
+  background-color: #2BA6CB;
 
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left top, right top, from(#CCCCCC), to(#d8d6d6));
-
-  /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(left, #CCCCCC, #d8d6d6);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(left, #CCCCCC, #d8d6d6);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(left, #CCCCCC, #d8d6d6);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(left, #CCCCCC, #d8d6d6);
+  
 }
 
 .heading-img {
@@ -63,28 +51,21 @@ span {
 
 #about-heading, #team-heading, #speech-heading {
   border: 1px solid #EEEEEE;
-  background-color: #bbadcc;
+  background-color: #2BA6CB;
   padding: 10px 20px;
 
-  /* Safari 4-5, Chrome 1-9 */
-  /* Can't specify a percentage size? Laaaaaame. */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#a898bc), to(#bbadcc));
-
-  /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #a898bc, #bbadcc);
-
-  /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #a898bc, #bbadcc);
+  
 }
 
 #directors-heading, #officers-heading {
   border: 1px solid #EEEEEE;
-  background-color: #eae8ea;
+  background-color: #c4e8f2;
   padding: 5px 10px;
 }
 
 .verbose {
   padding: 0px 10px;
+  /*min-height: 400px;*/
 }
 
 .verbose ul li {
